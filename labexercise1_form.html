@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <meta name="description" content="page description here">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <h1> Form Example</h1>
+
+  <form method="POST" action="http://localhost:3000/profile">   <!--<form method="POST" action="http://127.0.0.1:5500/form.html">-->
+  <div>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="">
+  </div> 
+  <div>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="">
+  </div>
+  <br>
+  <div>
+    <input type="radio" name="codingLang" value="HTML"/>
+    <label>HTML</label>
+  </div>
+  <div>
+    <input type="radio" name="codingLang" value="CSS"/>
+    <label>CSS</label>
+  </div>
+  <div>
+    <input type="radio" name="codingLang" value="JavaScript"/>
+    <label>Javascript</label>
+  </div>
+  <br>
+  <div>
+    <input type="checkbox" name="vehicle" value="Car"/>
+    <label>Car</label>
+  </div>
+  <div>
+    <input type="checkbox" name="vehicle" value="Truck"/>
+    <label>Truck</label>
+  </div>
+  <div>
+    <input type="checkbox" name="vehicle" value="Boat"/>
+    <label>Boat</label>
+  </div>
+<br>
+
+<label>Choose a car make:</label>
+
+<select name="cars">
+  <option value="blank"></option>
+  <option value="mazda">Mazda</option>
+  <option value="toyota">Toyota</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select> 
+<br>
+<br> 
+<div>
+  <button type="submit">Submit form</button>
+</div>
+
+  <br>
+</form>
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="http://127.0.0.1:5500/index.html">Home</a>
+      <a href="http://127.0.0.1:5500/form.html">Form</a>
+    </nav>
+  </header>
+
+  <main>
+  </main>
+
+  <footer>Copyright &copy; 2024</footer>
+
+  <script>
+    
+  </script>
+  
+</body>
+
+</html>
