@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  background-color: wheat;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start; 
+}
+
+.flex-left {
+    width: 25%
+}
+
+.flex-right {
+    width: 75%
+}
+
+img {  
+  display: flex;
+  border-radius: 50%;
+  margin-top: 4%;
+  margin-left: 20%;
+}
+
+h1 {
+   align-content: center; 
+   padding-left: 80px;
+   padding-top: 6px;
+   background-color: burlywood;
+   color: darkolivegreen;
+}
+
+.heading-left {
+   padding-top: 3px;
+   padding-left: 7px;
+   background-color: burlywood;
+   color: brown;
+   text-align: center;
+}
+
+.heading-right {
+   padding-top: 3px;
+   padding-left: 10px;
+   background-color: burlywood;
+   color: brown;
+   margin-left: 10px;
+}
+
+p {
+    font-size: 25px;
+    overflow: scroll;
+    padding-left: 23px;
+}
+
+ul {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    color: darkolivegreen;
+}
+
+@media screen and (max-width: 800px) {  /* laptop screen size and phone size. Could come back later to refine with mid size/tablet size etc */
+  .flex-container {
+   flex-direction: column;
+   float: left;
+  }
+  .flex-left {
+    width: 480px;
+  }
+  .flex-right {
+    width: 480px;
+  }
+  .heading-left {
+    text-align: left;
+  }
+  footer {
+    width: 480px;
+  }
+  h1 {
+    text-align: left;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+    <div class="flex-left">
+    <img src="bilbo_image_2.jpg" alt="Bilbo Baggins" style= "height:200px">
+    <h1>Bilbo Baggins</h1>
+    </div>
+
+    <div class="flex-right">
+        <h2 class="heading-right">Current Work</h2>
+        <h3>Writing</h3>
+        <p>In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, 
+            filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy 
+            hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and 
+            that means comfort. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+            cillum dolore eu fugiat nulla pariatur. 
+        </p>
+        </div>
+    
+      
+    <div class="flex-left">
+    <h2 class="heading-left">Hobbies & Interests</h2>
+        <ul class="hobbies">
+            <li>Second Breakfast</li>
+            <li>Gardening</li>
+            <li>Adventures</li>
+            <li>Magic Rings</li>
+            <li>Sneaking</li>
+        </ul>  
+    </div>
+
+    <div class="flex-right">
+        <h2 class="heading-right">Experience</h2>
+        <h3>Lonely Mountain Quest</h3>
+         <ul>
+          <li>Sword fighting</li>
+          <li>Negotiations</li>
+          <li>Spying</li>
+          <li>Looting</li>
+          <li>Translation</li>
+         </ul>  
+        </div>  
+
+    <div class="flex-left">
+        <h2 class="heading-left">Personal Information</h2>
+        <p><strong>Location:</strong> Hobbiton, The Shire</p>
+        <p><strong>Contact:</strong> Scroll, Symbols left on front door, voices from rings.</p>
+        <p>Notice preferred before visits</p>
+        <p>Availability varies</p>
+        </div>
+
+    <div class="flex-right">
+      <h2 class="heading-right">Education</h2>
+      <h3>Stories</h3>
+      <p>- Hobbits are influenced by the stories they hear, which affect their desires, aspirations, and decisions.</p>
+      <h3>Contact With Other Beings</h3> 
+      <p>- Hobbits who came into contact with the Elves, such as the Fallohides, were the first to learn literacy. </p>
+    </div>
+
+  </div>
+    
+<footer style=" background-color: burlywood;">Created by Holly Ashhurst-Smith, 2025</footer>
+
+</body>
+</html>
