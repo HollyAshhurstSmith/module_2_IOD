@@ -14,13 +14,10 @@
     }
   ],
   "profile": {
-    "fname": "holly",
-    "lname": "ashhurst",
-    "codingLang": "HTML",
-    "vehicle": [
-      "Car",
-      "Truck"
-    ],
-    "cars": "mazda"
+    "fname": "tom",
+    "lname": "hobson",
+    "codingLang": "JavaScript",
+    "vehicle": "Truck",
+    "cars": "toyota"
   }
 }
